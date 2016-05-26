@@ -1,0 +1,51 @@
+body {
+  font-family: Helvetica Neue, Verdana;
+}
+.main {
+  margin: auto;
+  max-width: 500px;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+.easter-egg {
+  display: none;
+}
+.easter-egg .container {
+  position: relative;
+  max-width: 200px;
+  height: 400px;
+  margin: auto;
+}
+.easter-egg .container p:nth-child(1) {
+  position: absolute;
+  top: 10px;
+  left: -20px;
+}
+.easter-egg .container p:nth-child(2) {
+  position: absolute;
+  bottom: 30px;
+  right: -100px;
+}
+.easter-egg .container p:nth-child(3) {
+  position: absolute;
+  bottom: 5px;
+  right: -80px;
+}
+#sponsor-noggalito {
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  bottom: 1em;
+  z-index: 1;
+  font-size: 8px;
+  font-style: italic;
+  min-width: 100px;
+}
+#sponsor-noggalito img {
+  max-width: 75px;
+}
